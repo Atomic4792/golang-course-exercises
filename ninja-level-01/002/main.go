@@ -4,9 +4,10 @@ import "fmt"
 
 var (
 	x int
- y string
- z bool
+	y string
+	z bool
 )
+
 func main() {
 
 	fmt.Printf("%v\t%q\t%v\n", x, y, z)
