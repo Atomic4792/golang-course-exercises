@@ -5,9 +5,10 @@ import "fmt"
 var x int
 var y string
 var z bool
+
 func main() {
 
-	fmt.Printf("%v\t%q\t%v\n",x,y,z)
+	fmt.Printf("%v\t%q\t%v\n", x, y, z)
 
 }
 

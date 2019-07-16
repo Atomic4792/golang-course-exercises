@@ -2,14 +2,15 @@ package main
 
 import "fmt"
 
-var(
-	x=42
- y="James Bond"
- z=true
+var (
+	x = 42
+	y = "James Bond"
+	z = true
 )
+
 func main() {
 
-	s:=fmt.Sprintf("%v\t%q\t%v\n",x,y,z)
+	s := fmt.Sprintf("%v\t%q\t%v\n", x, y, z)
 	fmt.Println(s)
 
 }
@@ -24,4 +25,4 @@ in func main
 use fmt.Sprintf to print all of the VALUES to one single string. ASSIGN the returned value of TYPE string using the short declaration operator to a VARIABLE with the IDENTIFIER “s”
 print out the value stored by variable “s”
 
- */
+*/

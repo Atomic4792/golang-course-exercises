@@ -11,7 +11,6 @@ func main() {
 
 }
 
-
 // Using the short declaration operator, ASSIGN these VALUES to VARIABLES with the IDENTIFIERS “x” and “y” and “z”
 //42
 //“James Bond”
