@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	favSport:="Soccer"
+	favSport := "Soccer"
 	switch favSport {
 	case "Tennis":
 		fmt.Println("Federer is the best hands down")
@@ -16,16 +16,13 @@ func main() {
 	default:
 		fmt.Println("I luv sports")
 
-
 	}
 }
 
-
-
 /*
 Create a program that uses a switch statement with the switch expression specified as a variable of TYPE string with the IDENTIFIER “favSport”.
- */
+*/
 
 /*
 This is ridiculous without user input
- */
+*/

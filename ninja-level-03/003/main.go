@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	born:=1996
-	thisYear:=time.Now().Year()
+	born := 1996
+	thisYear := time.Now().Year()
 	for {
-		if born>thisYear{
+		if born > thisYear {
 			break
 		}
 		fmt.Println(born)
@@ -17,9 +17,10 @@ func main() {
 	}
 
 }
+
 /*
 Create a for loop using this syntax
 for { }
 Have it print out the years you have been alive.
 
- */
+*/
