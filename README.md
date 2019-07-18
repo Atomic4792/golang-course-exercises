@@ -1,2 +1,2 @@
 # golang-course-exercises
-This is the me solving exercises.
+This is me solving excercises
