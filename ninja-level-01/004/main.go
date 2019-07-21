@@ -3,12 +3,13 @@ package main
 import "fmt"
 
 type jeff int
+
 var x jeff
 
 func main() {
-	fmt.Printf("%v\t%T\n",x,x)
-	x=42
-	fmt.Printf("%v",x)
+	fmt.Printf("%v\t%T\n", x, x)
+	x = 42
+	fmt.Printf("%v", x)
 }
 
 /*
@@ -23,4 +24,4 @@ b)print out the type of the variable “x”
 c)assign 42 to the VARIABLE “x” using the “=” OPERATOR
 d)print out the value of the variable “x”
 
- */
+*/
